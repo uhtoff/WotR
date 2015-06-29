@@ -1,0 +1,7 @@
+{% extends 'WotRBundle:Default:game.html.twig' %}
+
+{% block decision %}
+    {{ parent() }}
+    <p>Your opponent has a {{ decision.type }} decision to make before the game can continue</p>
+
+{% endblock %}

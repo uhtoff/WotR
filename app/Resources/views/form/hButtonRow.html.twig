@@ -1,0 +1,11 @@
+{% block button_row %}
+{% spaceless %}
+    <div class="form-group">
+        <div class="col-sm-offset-3 col-sm-9">
+            {{ form_widget(form, { 'attr': { 'class': 'btn btn-default' } } ) }}
+        </div>
+    </div>
+{% endspaceless %}
+{% endblock %}
+
+

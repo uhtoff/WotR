@@ -1,0 +1,30 @@
+{% extends 'Games/layout.html.twig' %}
+
+{% block body %}
+    {{ parent() }}
+    <div class="container">
+        <ul>
+        {% for boardgame in boardgames %}
+            <li>{{ boardgame }}</li>
+            <ul>
+            {% for game in boardgame.getGames %}
+                <li>{{ game }}</li>
+                <ul>
+                    {% for checkGame in gameRef %}
+                        {% if checkGame.id == game.id %}
+                            
+                            {% for player in checkGame.getPlayers %}
+                                {% if player.getUser.name is defined %}
+                                    <li>{{ player.getUser.name }}</li>
+                                {% endif %}
+                            {% endfor %}
+                            
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            {% endfor %}
+            </ul>
+        {% endfor %}
+        </ul>
+    </div>
+{% endblock %}

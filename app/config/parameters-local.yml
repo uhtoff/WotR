@@ -1,0 +1,14 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_driver: pdo_mysql
+    database_host: localhost
+    database_port: null
+    database_name: symtest
+    database_user: root
+    database_password: null
+    mailer_transport: gmail
+    mailer_host: ~
+    mailer_user: russ.hewson@gmail.com
+    mailer_password: !Cre0s0te!
+    locale: en
+    secret: 5f2ad74e78469486c088e152b2fc5e0e268abf64

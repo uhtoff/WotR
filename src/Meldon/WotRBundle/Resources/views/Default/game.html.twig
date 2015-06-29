@@ -1,0 +1,275 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container">
+        <div class="well row">
+            <div class="col-xs-6">
+                <h3>General</h3>
+                <p>ID: {{ game.getId }}</p>
+                <p>Turn: {{ game.getTurn }}</p>
+                <p>Phase: {{ game.getPhase.getName }}</p>
+                {% if game.getPhase.getNumber == '5.x' %}
+                    <p>SubPhase: {{ game.getSubPhase }}</p>
+                {% endif %}
+                <h3>Actions</h3>
+                {% set aS = game.getActionStack %}
+                <ul>
+                    {% for action in aS.getActions %}
+                        {% set sideName = action.getSide ? action.getSide.getName : 'None' %}
+                        <li>{{ action.details.name }}:{{ action.currentSubActionIndex }} ({{ sideName }}) - {{ action.formType(game) }}/{{  action.actionMethod(game) }}</li>
+                    {% endfor %}
+                </ul>
+                <a href="{{  path('show_map', {'id': game.id}) }}" target="_blank">Open Map</a>
+            </div>
+            <div class="col-xs-6">
+                <h3>Players</h3>
+                {% for player in game.getPlayers %}
+                    <p>{% if player == game.getCurrentPlayer %}
+                        <strong>
+                            {% endif %}
+                            {{ player.getName }} - {{ player.getSide.getName }}
+                            {% if player == game.getCurrentPlayer %}
+                        </strong>
+                        {% endif %}
+                    </p>
+                    {% for dice in game.getDicePoolByType(player.getSide.getAbbreviation) %}
+
+                        <img width=60px src={{ asset('images/' ~ dice.getImage ~ '.bmp') }}/>
+
+                    {% endfor %}
+                    {% if player.isShadow and not game.getHuntDicePool.isEmpty %}
+                        <p>Hunt Pool</p>
+                        {% for dice in game.getHuntDicePool %}
+
+                            <img width=60px src={{ asset('images/' ~ dice.getImage ~ '.bmp') }}/>
+
+                        {% endfor %}
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        {% if game.battle %}
+            <div class="well row">
+                {% set battle = game.battle %}
+                <div class="col-xs-12">
+                    <h3>Battle</h3>
+                </div>
+                <div class="col-xs-6">
+                {% set att = battle.attacker %}
+                <p>{{ att.side.name }} attacking from {{ att.location.details.name }} with -</p>
+                <ul>
+                    {% for unit in att.units %}
+                        <li>{{ unit.name }}</li>
+                    {% endfor %}
+                </ul>
+                <p>Current combat strength - {{ att.strength }}</p>
+                <p>Current leadership
+                    {% if att.side.isShadow %}
+                        (Nazgûl leadership)
+                    {% endif %}
+                    - {{ att.leadership }}
+                    {% if att.side.isShadow %}
+                        ({{ att.nazgulLeadership }})
+                    {% endif %}
+                </p>
+                {% if att.card %}
+                    <p>Attacker's battle card</p>
+                    {% if battle.cardsRevealed %}
+                        <p>{{ att.card.getBattleEvent.getName }} - {{ att.card.getBattleEvent.getBattleText }}</p>
+                    {% else %}
+                        <p>Card type - {{ att.card.getType.getName }}</p>
+                    {% endif %}
+                {% endif %}
+                </div>
+                <div class="col-xs-6">
+                {% set def = battle.defender %}
+                <p>{{ def.side.name }} defending in {{ def.location.details.name }} with -</p>
+                <ul>
+                    {% for unit in def.units %}
+                        <li>{{ unit.name }}</li>
+                    {% endfor %}
+                </ul>
+                <p>Current combat strength - {{ def.strength }}</p>
+                <p>Current leadership
+                    {% if def.side.isShadow %}
+                        (Nazgûl leadership)
+                    {% endif %}
+                    - {{ def.leadership }}
+                    {% if def.side.isShadow %}
+                        ({{ def.nazgulLeadership }})
+                    {% endif %}
+                </p>
+                {% if def.card %}
+                    <p>Defender's battle card</p>
+                    {% if battle.cardsRevealed %}
+                        <p>{{ def.card.getBattleEvent.getName }} - {{ def.card.getBattleEvent.getBattleText }}</p>
+                    {% else %}
+                        <p>Card type - {{ def.card.getType.getName }}</p>
+                    {% endif %}
+                {%  endif %}
+                </div>
+            </div>
+        {% endif %}
+        {% block decision %}
+        {% endblock %}
+        <div class="well row">
+            <div class="tabbable">
+                <ul class="nav nav-tabs">
+                    <li class="active">
+                        <a href="#cards" data-toggle="tab">Cards</a>
+                    </li>
+                    <li>
+                        <a href="#fellowship" data-toggle="tab">Characters & Fellowship</a>
+                    </li>
+                    <li>
+                        <a href="#politics" data-toggle="tab">Political Track</a>
+                    </li>
+                    <li>
+                        <a href="#hunt" data-toggle="tab">Hunt tiles</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div id="cards" class="tab-pane active">
+                        <h3>Cards</h3>
+                        {% for cg in game.getCardGroups %}
+                            {% if cg.isEvent and cg.isVisible(game.getCurrentSide) and cg.numCards > 0 %}
+                                <h4>{{ cg.getName }}</h4>
+                                <ul>
+                                    {% for card in cg.getCards %}
+                                        <li>{{ card.getPopover|raw }}</li>
+                                    {% endfor %}
+                                </ul>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                    <div id="fellowship" class="tab-pane">
+                        <h3>Fellowship</h3>
+                        {% set fs = game.getFellowship %}
+                        <p>Progress: {{ fs.getProgress }} ({{ fs.getRevealed ? 'Revealed' : 'Hidden' }})</p>
+                        <p>Corruption: {{ fs.getCorruption }}</p>
+                        {% if fs.guide %}
+                            <p>Guide: {{ fs.getGuide.getName }}</p>
+                        {% else %}
+                            <p>No Guide set</p>
+                        {% endif %}
+                        <p>Last known location: {{ fs.getLocation.getName }}</p>
+                        <p>Characters</p>
+                        <ul>
+                            {% for char in fs.getCharacters %}
+                                <li>{{ char.getName }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    <div id="politics" class="tab-pane">
+                        <h3>Nations</h3>
+                        <ul>
+                            {% for n in game.getNations %}
+                                <li>{{ n.getName }} ({{ n.getSide.getName }})</li>
+                                <ul>
+                                    <li>{{ n.getStepName }} ({{ n.getActive ? 'Active':'Inactive' }})</li>
+                                </ul>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    <div id="hunt" class="tab-pane">
+                        <h3>Hunt Tiles</h3>
+                            {% for cg in game.getCardGroups %}
+                                {% if cg.isHunt and cg.numCards > 0 %}
+                                    <h4>{{ cg.getName }}</h4>
+                                    <ul>
+                                        {% for tile in cg.getCards %}
+                                            <img width=60px src={{ asset('images/' ~ tile.getFilename ~ '.bmp') }}/>
+                                        {% endfor %}
+                                    </ul>
+                                {% endif %}
+                            {% endfor %}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="well row">
+                <h3>Log</h3>
+                {% set log = game.getLog %}
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                Turn
+                            </th>
+                            <th>
+                                Phase
+                            </th>
+                            <th>
+                                Action
+                            </th>
+                            <th>
+                                Message
+                            </th>
+                            <th>
+                                Date
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for le in log.getLogItems %}
+                            <tr>
+                                <td>
+                                    {{ le.getTurn }}
+                                </td>
+                                <td>
+                                    {{ le.getPhase }}
+                                </td>
+                                <td>
+                                    {{  le.actionDetails.name }}
+                                </td>
+                                <td>
+                                    {{  le.getText|raw }}
+                                </td>
+                                <td>
+                                    {{ le.getDate }}
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+        </div>
+        {#<div class="well row">#}
+            {#<div class="col-xs-6">#}
+
+                {#<h3>Cards</h3>#}
+                {#{% for cg in game.getCardGroups %}#}
+                    {#<p>{{ cg.getName}}</p>#}
+                    {#<ul>#}
+                    {#{% for card in cg.getCards %}#}
+                        {#<li>{{ card.getPosition }} - {{ card.getName }}</li>#}
+                    {#{% endfor %}#}
+                    {#</ul>#}
+                {#{% endfor %}#}
+            {#</div>#}
+            {#<div class="col-xs-6">#}
+                {#<h3>Units</h3>#}
+                {#<ul>#}
+                {#{% for loc in game.getLocations %}#}
+                    {#{% if loc.getUnits is not empty %}#}
+                        {#<li>{{ loc.getName }}#}
+                            {#<ul>#}
+                                {#{% for unit in loc.getUnits %}#}
+                                    {#<li>{{ unit.getName }}</li>#}
+                                {#{% endfor %}#}
+                            {#</ul>#}
+                        {#</li>#}
+                    {#{% endif %}#}
+                {#{% endfor %}#}
+                    {#<li>Off board#}
+                        {#<ul>#}
+                        {#{% for unit in game.getUnits(true) %}#}
+                            {#<li>{{ unit.getName }} - {{ unit.getCasualty ? 'Dead' : 'Alive' }}</li>#}
+                        {#{% endfor %}#}
+                        {#</ul>#}
+                    {#</li>#}
+                {#</ul>#}
+            {#</div>#}
+        {#</div>#}
+    </div>
+{% endblock %}

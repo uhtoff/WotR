@@ -1,0 +1,11 @@
+{% extends 'WotRBundle:Default:game.html.twig' %}
+
+{% form_theme form 'form/bootstrap_3_layout_rawlabels.html.twig' %}
+
+{% block decision %}
+    {{ parent() }}
+    <div class="well row">
+        {{ form(form) }}
+    </div>
+
+{% endblock %}

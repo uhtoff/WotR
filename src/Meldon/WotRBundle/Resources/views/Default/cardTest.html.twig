@@ -1,0 +1,10 @@
+<body>
+    {% for cg in cardgroups %}
+        <p>{{ cg.getName}}</p>
+        <ul>
+        {% for card in cg.getCards %}
+            <li>{{ card.getPosition }} - {{ card.getName }}</li>
+        {% endfor %}
+        </ul>
+    {% endfor %}
+</body>

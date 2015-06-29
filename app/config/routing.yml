@@ -1,0 +1,21 @@
+meldon_dice:
+    resource: "@MeldonDiceBundle/Controller/"
+    type:     annotation
+    prefix:   /dice/
+
+wot_r:
+    resource: "@WotRBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+user:
+    resource: "@UserBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: @GamesBundle/Controller/
+    type:     annotation
+
+logout:
+    path: /logout

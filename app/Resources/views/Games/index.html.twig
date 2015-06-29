@@ -1,0 +1,12 @@
+{% extends 'Games/layout.html.twig' %}
+
+{% block body %}
+    {{ parent() }}
+    <div class="container">
+        {% if is_granted('IS_AUTHENTICATED_FULLY') %}
+            <p>Welcome {{ app.user.forename }}</p>
+        {% else %}
+            <p>Please log in above.</p>
+        {% endif %}
+    </div>
+{% endblock %}

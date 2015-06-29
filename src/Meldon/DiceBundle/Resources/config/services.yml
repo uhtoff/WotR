@@ -1,0 +1,6 @@
+parameters:
+    meldon.dice.class: Meldon\DiceBundle\Controller\DiceController
+ 
+services:
+    meldon.dice:
+        class: "%meldon.dice.class%"
