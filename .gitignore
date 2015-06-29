@@ -5,6 +5,8 @@
 /app/logs/*
 !app/logs/.gitkeep
 /app/phpunit.xml
+/app/config/parameters-local.yml
+/app/config/parameters-home.yml
 /bin/
 /composer.phar
 /vendor/

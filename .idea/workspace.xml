@@ -4,308 +4,10 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="875e0707-8911-4067-8bc5-4919b9f946bf" name="Default" comment="Initial commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/cache/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/logs/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/music/02 - Concerning Hobbits.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/0reveal.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/0special.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/1dam.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/1reveal.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/1special.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/2dam.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/2reveal.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/3dam.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/3special.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/BoardPart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/apple-touch-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/board2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/dicespecial.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/especial.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/eye.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/fparmymusterdice.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/fparmymusterdiceused.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/fpchar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/fpcharacterdice.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/fpcharacterdiceused.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/fpeventdice.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/fpeventdiceused.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/fpmusterdice.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/fpmusterdiceused.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/fpunit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/fpwilldice.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/fpwilldiceused.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/frodo-sam.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/neg1special.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/neg2special.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/sarmydice.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/sarmymusterdice.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/schar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/scharacterdice.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/seventdice.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/seyedice.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/smusterdice.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/sunit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/unit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/wotrcover.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/Ability.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/Action.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/ActionDetails.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/ActionDetailsRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/ActionDie.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/ActionDieDetails.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/ActionDieDetailsRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/ActionPreRequisite.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/ActionPrerequisiteGroup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/ActionStack.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/maps/Additions.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/AllocateHuntDiceType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/AppCache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/ArgumentParser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/ArmyWithLeaderToMoveType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/AttackerUnitsToAdvance.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/AttackingUnitsType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/AttackingUnitsWithLeaderType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/Battle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Details/Meldon/WotRBundle/Entity/BattleBackup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/Details/BattleBackup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/BattleCardType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/BattleEvent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/maps/BoardPart.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GamesBundle/Entity/Boardgame.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/Card.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/CardDetails.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/CardEntryDetails.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/CardEntryDetailsRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/CardEvent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/CardEventDetails.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/CardGroup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/CardGroupDetails.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/CardGroupRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/CardMapping.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/CardRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/CardType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/CasualtiesDecisionType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/CeaseAttackDecisionType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/Character.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/CharacterDetails.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/CharacterDetailsRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/ChooseActionDieType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/ChooseActionType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/ChooseArmyCardType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/ChooseArmyDestinationType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/ChooseArmyLocationType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/ChooseAttackingLocationType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/ChooseCharacterCardType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/ChooseDefendingLocationType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/ChooseEventCardType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/ChooseEventDeckType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/ChooseGuideType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/ChooseLeaderAttackingLocationType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/ChooseMusterCardType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/ChooseNationToAdvanceType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/ChooseNewGuideType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/ChooseUnitsToMoveType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/Combatant.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/CompanionDestinationType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/CompanionSelectType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/DiceBundle/DependencyInjection/Configuration.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/DependencyInjection/Configuration.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UserBundle/DependencyInjection/Configuration.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/Connection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/ConnectionDetails.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/Decision.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/DecisionStack.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/DecisionType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/DeclareFellowshipType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GamesBundle/Controller/DefaultController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/DiceBundle/Controller/DefaultController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UserBundle/Controller/DefaultController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/Dice.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/DiceBundle/Controller/DiceController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/DiscardCardsType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/ElvenRings.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/EventCard.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/EventCardType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/EventPreRequisite.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/EventPrerequisiteGroup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/ExecuteActionDecisionType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/Fellowship.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/FellowshipCompanionDestinationType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/FellowshipCompanionsType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/FirstMusterLocationType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/FirstMusterUnitType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/FurtherCompanionSelectType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/FurtherMinionSelectType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GamesBundle/Entity/Game.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/Game.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Collection/GameCollection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Tests/Collection/GameCollectionTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/GameRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GamesBundle/GamesBundle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/GroupType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/HuntTile.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/HuntTileDecisionType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/Location.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/LocationDetails.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/LocationRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/Log.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Factory/LogFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/LogItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Event/LogItem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/MagicDetails.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/DiceBundle/MeldonDiceBundle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/DiceBundle/DependencyInjection/MeldonDiceExtension.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/MinionDestinationType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/MinionSelectType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/MusterMinionType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/Nation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Collection/NationCollection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/NationDetails.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/Phase.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GamesBundle/Entity/Player.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/Player.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/PoliticalStep.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/PreRequisite.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/RetreatDecisionType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/RetreatIntoStrongholdType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/ReturnType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/RevealFellowshipType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UserBundle/Entity/Role.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Russ.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Russell.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/Scenario.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/SecondMusterLocationType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/SecondMusterUnitType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/SendMessageType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/Side.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/SideRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/SubAction.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/SubActionOrder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/SymfonyRequirements.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UPGRADE-2.2.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UPGRADE-2.3.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UPGRADE-2.4.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UPGRADE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/Unit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/UnitEntryDetails.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/UnitEntryDetailsRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/UnitRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/UnitType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/UnitsToMoveWithLeaderType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/maps/Untitled.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UserBundle/Form/Type/UpdateUserType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UserBundle/Entity/User.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UserBundle/UserBundle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UserBundle/Controller/UserController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UserBundle/DependencyInjection/UserExtension.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UserBundle/Entity/UserRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/WotRBundle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Collection/WotRCollection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Controller/WotRController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/DependencyInjection/WotRExtension.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/WotRType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/default/alertMessage.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/app.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/app_dev.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/autoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/maps/board2.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/form/bootstrap_3_horizontal_layout.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/form/bootstrap_3_layout.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/form/bootstrap_3_layout_rawlabels.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Resources/views/Default/cardTest.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/check.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/config.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/config_dev.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/config_prod.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/config_test.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/console" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/createjs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Resources/views/Default/decision.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/entity.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/frameworkRootSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Resources/views/Default/game.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/games.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/games.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/form/hButtonRow.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/form/hFormRow.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/homestat.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/Games/index.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/DiceBundle/Resources/views/Default/index.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Resources/views/Default/index.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UserBundle/Resources/views/Default/index.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Resources/doc/index.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UserBundle/Resources/doc/index.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery-2.1.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/Games/layout.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localstat.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Resources/views/Default/map.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/maps/map.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Resources/translations/messages.fr.xlf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UserBundle/Resources/translations/messages.fr.xlf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/myproject.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/User/navbarUserForm.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Resources/views/Default/oppDecision.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/parameters-Bowler.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/parameters-home.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/parameters-local.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/parameters.yml.dist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/phpunit.xml.dist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/region.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/require.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/routing_dev.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schema.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/security.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/Games/select.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serverext.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/WotRBundle/Resources/config/services.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UserBundle/Resources/config/services.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/services.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Meldon/DiceBundle/Resources/config/services.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/status-Stetson.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/status.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/switch.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/maps/units.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/User/update.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace-Bowler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace-Stetson.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wotrentity.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wotrschema.bat" />
+    <list default="true" id="875e0707-8911-4067-8bc5-4919b9f946bf" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\Ampps\www\symtest\myproject\app\config\parameters-Bowler.yml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="myproject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -342,7 +44,7 @@
       <file leaf-file-name="WotRController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Meldon/WotRBundle/Controller/WotRController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.91927344" vertical-offset="8847" max-vertical-offset="12682">
+            <state vertical-scroll-proportion="0.91834676" vertical-offset="8847" max-vertical-offset="12682">
               <caret line="609" column="1" selection-start-line="609" selection-start-column="1" selection-end-line="609" selection-end-column="1" />
               <folding>
                 <marker date="1435185335272" expanded="true" signature="15982:16149" placeholder="SELECT natio..." />
@@ -444,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/ArmyWithLeaderToMoveType.php" />
         <option value="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/UnitsToMoveWithLeaderType.php" />
         <option value="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/ChooseUnitsToMoveType.php" />
         <option value="$PROJECT_DIR$/src/Meldon/WotRBundle/Form/Type/UnitsToMoveWithLeaderType.php" />
@@ -495,6 +196,7 @@
         <option value="$PROJECT_DIR$/src/Meldon/WotRBundle/Entity/Game.php" />
         <option value="$PROJECT_DIR$/src/Meldon/WotRBundle/Collection/NationCollection.php" />
         <option value="$PROJECT_DIR$/src/Meldon/WotRBundle/Controller/WotRController.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -552,7 +254,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -563,7 +265,29 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -601,9 +325,6 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="3fe27a09-4879-416a-b037-bc6c67db6054" server_name="War of the Ring">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -611,6 +332,9 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="3fe27a09-4879-416a-b037-bc6c67db6054" server_name="War of the Ring">
       <method />
     </configuration>
     <configuration default="false" name="Test" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="Localhost" start_url="/wotr/test/94">
@@ -664,7 +388,13 @@
       <option name="project" value="LOCAL" />
       <updated>1435564898012</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1435565185943</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1435565185943</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -691,7 +421,6 @@
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291866" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291866" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32600382" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32832834" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -699,21 +428,22 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32569295" sideWeight="0.49952152" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Symfony2" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29317698" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19936034" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29317698" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20149253" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.50047845" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32600382" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3957935" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291866" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993994" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291866" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993994" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -882,13 +612,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="676">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters-Bowler.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="676">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1101,9 +824,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18369351" vertical-offset="0" max-vertical-offset="1018">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Meldon/WotRBundle/Controller/WotRController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.91927344" vertical-offset="8847" max-vertical-offset="12682">
+        <state vertical-scroll-proportion="0.91834676" vertical-offset="8847" max-vertical-offset="12682">
           <caret line="609" column="1" selection-start-line="609" selection-start-column="1" selection-end-line="609" selection-end-column="1" />
           <folding>
             <marker date="1435185335272" expanded="true" signature="15982:16149" placeholder="SELECT natio..." />
