@@ -1,12 +1,16 @@
 <?php
 namespace Meldon\WotRBundle\Controller;
 
+use Doctrine\Common\Collections\Criteria;
 use Meldon\WotRBundle\Entity\Action;
 use Meldon\WotRBundle\Entity\ActionStack;
 use Meldon\WotRBundle\Entity\Battle;
 use Meldon\WotRBundle\Entity\ConnectionDetails;
 use Meldon\WotRBundle\Entity\Log;
 use Meldon\WotRBundle\Entity\NationCollection;
+use Meldon\WotRBundle\Entity\NationCopy;
+use Meldon\WotRBundle\Entity\NationDetails;
+use Meldon\WotRBundle\Entity\NationDetailsCopy;
 use Meldon\WotRBundle\Entity\SubAction;
 use Meldon\WotRBundle\Factory\LogFactory;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
@@ -50,13 +54,36 @@ class WotRController extends Controller
     public function testAction(Game $game, Request $request)
     {
         $em = $this->getDoctrine()->getManager();
-        $nations = $game->getCharacters();
+//        $startNations = $em->getRepository('WotRBundle:NationDetails')
+//            ->findAll();
+//        foreach( $startNations as $sN ) {
+//            $n = new NationCopy($sN,$game);
+//            $em->persist($n);
+//        }
+//        $em->flush();
+//        exit();
+        $nations = $game->getNations();
+//        foreach( $nations as $n )
+//        {
+//            echo $n->getId();
+//        }
+//
+//        $nations->filter(
+//            function ($n) {
+//                return $n->getName() == 'Dwarves';
+//            }
+//        );
+//
+        $c = Criteria::create();
+        $e = Criteria::expr();
+        $c->where(
+            $e->eq('name','Dwarves')
+        );
+        $nations = $nations->matching($c);
         /** @var Nation $n */
-        foreach( $nations->filterBySide($game->getSide('S')) as $n ) {
+        foreach( $nations as $n ) {
             echo $n->getName();
-            $n->setCasualty(true);
         }
-        $em->flush();
         return new Response('<body>Test</body>');
     }
 

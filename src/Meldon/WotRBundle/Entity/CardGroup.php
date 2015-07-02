@@ -55,6 +55,7 @@ class CardGroup {
         if ( $game ) $this->setGame ($game);
         $this->cards = new ArrayCollection();
     }
+
     /**
      * Get id
      *

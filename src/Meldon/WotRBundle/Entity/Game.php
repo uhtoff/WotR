@@ -71,7 +71,7 @@ class Game {
      */
     private $rings;
     /**
-     * @ORM\OneToMany(targetEntity="Nation", mappedBy="game", cascade={"persist","remove"}, orphanRemoval=true)
+     * @ORM\OneToMany(targetEntity="Nation", mappedBy="game", cascade={"persist","remove"}, orphanRemoval=true, fetch="EAGER")
      */
     private $nations;
     /**
@@ -2319,10 +2319,10 @@ class Game {
     /**
      * Set nations
      *
-     * @param \Meldon\WotRBundle\Entity\NationCollection $nations
+     * @param NationCollection $nations
      * @return Game
      */
-    public function setNations(\Meldon\WotRBundle\Entity\NationCollection $nations = null)
+    public function setNations(NationCollection $nations = null)
     {
         $this->nations = $nations;
 

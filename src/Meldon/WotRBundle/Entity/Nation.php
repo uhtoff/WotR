@@ -13,7 +13,7 @@ use Doctrine\Common\Util\Debug;
  * @ORM\Table(name="wotrnew.nation")
  */
 class Nation {
-    use MagicDetails;
+//    use MagicDetails;
     /**
      * @var integer
      * 
@@ -61,6 +61,11 @@ class Nation {
     public function getId()
     {
         return $this->id;
+    }
+
+    public function getName()
+    {
+        return $this->getDetails()->getName();
     }
     /**
      * Set game
@@ -131,6 +136,7 @@ class Nation {
     {
         return $this->details;
     }
+
     public function atWar()
     {
         return $this->getStepsFromWar() === 0;
