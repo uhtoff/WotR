@@ -63,17 +63,17 @@ class WotRController extends Controller
 //        $em->flush();
 //        exit();
         $nations = $game->getNations();
-//        foreach( $nations as $n )
-//        {
-//            echo $n->getId();
-//        }
-//
-//        $nations->filter(
-//            function ($n) {
-//                return $n->getName() == 'Dwarves';
-//            }
-//        );
-//
+        foreach( $nations as $n )
+        {
+            echo $n->getId();
+        }
+
+        $nations->filter(
+            function ($n) {
+                return $n->getName() == 'Dwarves';
+            }
+        );
+
         $c = Criteria::create();
         $e = Criteria::expr();
         $c->where(
